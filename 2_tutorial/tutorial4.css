@@ -159,6 +159,11 @@
         width:50px;
     }
     
+    #bac {
+        border: none;
+        background: none;
+    }
+    
     #state{
     color: #FFFFFF;
     margin-left: auto;
@@ -376,6 +381,11 @@
     #img_bac{
         height:100px;
         width:100px;
+    }
+    
+    #bac {
+        border: none;
+        background: none;
     }
     
 #state{

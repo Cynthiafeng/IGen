@@ -203,6 +203,11 @@
         height:50px;
         width:50px;
     }
+    
+    #bac {
+        border: none;
+        background: none;
+    }
 }
 
 
@@ -300,6 +305,11 @@
     #img_bac {
         height:100px;
         width:100px;
+    }
+    
+    #bac {
+        border: none;
+        background: none;
     }
     
     #inpEat {

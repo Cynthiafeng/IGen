@@ -20,6 +20,12 @@
         height:50px;
         width:50px;
     }
+    
+    #bac {
+        border: none;
+        background: none;
+    }
+    
     #main_cont{
         display:flex;
         flex-direction: column;
@@ -214,5 +220,10 @@
     #img_bac{
         height:100px;
         width:100px;
+    }
+    
+    #bac {
+        border: none;
+        background: none;
     }
 }
