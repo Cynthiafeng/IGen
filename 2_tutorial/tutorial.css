@@ -112,7 +112,7 @@
 
     #next{
         width: 125px;
-        height: 50px;
+        height: 45px;
         background-color: #ffffff;
         border-radius: 25px;
         margin: 5px;
@@ -240,13 +240,13 @@
     #next_cont{
         display:flex;
         position: absolute;
-        bottom:0px;
-        right:20px;
+        bottom:30px;
+        right:30px;
     }
 
     #next{
-        width: 135px;
-        height: 50px;
+        width: 155px;
+        height: 80px;
         background-color: #ffffff;
         border-radius: 30px;
         margin: 10px;

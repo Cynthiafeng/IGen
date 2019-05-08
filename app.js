@@ -3,26 +3,26 @@ var pkg = {
     meals: "",
     mealsText: "",
     company: ""
-}
+};
 
 var store = localStorage.getItem("pkg");
-    if (store){
+    if (store) {
         pkg = JSON.parse(store);
     }
 
 var handler = {
-    set: function(obj, props, value){
+    set: function (obj, props, value) {
         
     }
-}
+};
 
-var prox = new Proxy(pkg, handler)
+var prox = new Proxy(pkg, handler);
 
 var btnGetStarted = document.querySelector("#btnGetStart"),
     moodHappy = document.querySelector("#happy"),
     moodTired = document.querySelector("#tired"),
     moodExcited = document.querySelector("#excited"),
-    moodSad= document.querySelector("#sad"),
+    moodSad = document.querySelector("#sad"),
     eatBreakfast = document.querySelector("#bfast"),
     eatlunch = document.querySelector("#lunch"),
     eatDinner = document.querySelector("#din"),
@@ -49,8 +49,8 @@ if (document.selection) {
     range.moveToElementText(document.querySelector(h1));
     range.select().createTextRange();
     document.execCommand("copy"); 
-
-} else if (window.getSelection) {
+} 
+    else if (window.getSelection) {
     var range = document.createRange();
      range.selectNode(document.querySelector(h1));
      window.getSelection().addRange(range);
@@ -156,7 +156,7 @@ if ([pkg.company] == "Friends" && (window.innerWidth >= 800 )){
     console.log("friends activated");
     document.querySelector("#char").style.width = "107%";
     document.querySelector("#char").style.height = "107%";
-    document.querySelector("#char").style.transform = "translate(-4%,-7%)";
+    document.querySelector("#char").style.transform = "translate(-6%,-7%)";
     document.querySelector("#bf").style.right = "255px";
     document.querySelector("#bf").style.width = "35%";
     document.querySelector("#bf").style.marginTop = "25px";
@@ -167,7 +167,7 @@ if ([pkg.company] == "Friends" && (window.innerWidth >= 800 )){
     console.log("friends activated mini phone");
     document.querySelector("#char").style.width = "107%";
     document.querySelector("#char").style.height = "107%";
-    document.querySelector("#char").style.transform = "translate(-4%,-7%)";
+    document.querySelector("#char").style.transform = "translate(-6%,-7%)";
     document.querySelector("#bf").style.right = "60px";
     document.querySelector("#bf").style.width = "45%";
     document.querySelector("#bf").style.marginTop = "-5px";
@@ -241,7 +241,7 @@ function previous(){
 
  function goBack(){
     console.log("back");
-    location.href= "../3_getstarted/getstarted.html";
+    location.href= "../index.html";
 }
 
 

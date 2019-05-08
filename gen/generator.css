@@ -55,6 +55,8 @@ h1 {
     bottom: 20px;
     right: 15px;
     position: fixed;
+    background: none;
+    border: none;
 }
 
 #back_btn {
