@@ -1,4 +1,6 @@
- body{
+/*=========IPHONE 6s PLUS MEDIA SCREEN============*/
+@media only screen and (max-width: 414px) { 
+body{
         background: #018ABE;
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
@@ -61,6 +63,7 @@
         position: absolute;
         bottom:10px;
         left:20px;
+        border: none;
     }
     
 #img_bac{
@@ -68,7 +71,7 @@
         width:50px;
     }
    
-
+}
 
 @media only screen and (max-width: 414px) {
     
@@ -199,6 +202,7 @@
         position: absolute;
         bottom:40px;
         left:45px;
+        border: none;
     }
     
     #img_bac{

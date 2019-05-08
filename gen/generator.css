@@ -36,6 +36,7 @@ h1 {
 #caption {
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 #char {
@@ -51,9 +52,13 @@ h1 {
 
 #home {
     width: 15%;
-    bottom: 15px;
-    right: 10px;
+    bottom: 20px;
+    right: 15px;
     position: fixed;
+}
+
+#back_btn {
+    border: none;
 }
 
 @media only screen and (min-width: 800px) {
@@ -101,12 +106,14 @@ h1 {
     }
     
     #copy {
-        width: 25%;
+        width: 20%;
         margin-left: 38%;
     }
     
     #gen {
-        margin-left: 6%;
+        margin-left: 9%;
+        width: 80%;
+        height: 50%;
     }
     
     #char {

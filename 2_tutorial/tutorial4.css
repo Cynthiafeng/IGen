@@ -142,6 +142,7 @@
         font-family: 'PT Sans Narrow', sans-serif, helvetica;
         color: #018ABE;
         font-size: 25px;
+        border: none;
     }
     
     #back_btn{
@@ -149,6 +150,7 @@
         position: absolute;
         bottom:10px;
         left:20px;
+        border: none;
     }
     
     #img_bac{
@@ -358,6 +360,7 @@
         font-family: 'PT Sans Narrow', sans-serif, helvetica;
         color: #018ABE;
         font-size: 42pt;
+        border: none;
     }
     
     #back_btn{
@@ -365,6 +368,7 @@
         position: absolute;
         bottom:40px;
         left:45px;
+        border: none;
     }
     
     #img_bac{
@@ -426,4 +430,6 @@
         font-family: 'PT Sans Narrow', sans-serif, helvetica;
         font-size: 25pt;
         color: #018ABE;
+        margin-top: 20px;
+        border: none;
     }

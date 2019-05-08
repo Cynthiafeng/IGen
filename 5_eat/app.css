@@ -1,22 +1,27 @@
+
 #inpEat{
     width: 80%;
     background: #e0e0e0;
     color: black;
-    height: 20px;
+    height: 24px;
     border-radius: 15px;
     border: 1px solid #ddd;
+    font-size: 16pt;
+    margin: 10px;
 }
 
 #validateEat{
     width: 80px;
     height: 30px;
-    background: #034fb5;
-    border: 1px solid #ddd;
+    background: #018ABE;
+    border: none;
     color: #fff;
-    border-radius: 14px;
+    border-radius: 15px;
+    margin-top: 10px;
+    font-size: 10pt;
 }
 #validateEat:hover{
-    background: #164c94;
+    background: #97CADB;
 }
  
 /* The Modal (background) */
@@ -47,7 +52,9 @@
   margin-right: auto;
   padding: 20px;
   border: 1px solid #888;
+  border-radius: 25px;
   width: 80%;
+  font-size: 15pt;
 }
 #centerElement{
     display: flex;
@@ -145,6 +152,7 @@
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 30px;
+        border: none;
     }
 
     #cont3{
@@ -162,6 +170,7 @@
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 30px;
+        border: none;
     }
 
     #cont4{
@@ -179,6 +188,7 @@
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 30px;
+        border: none;
     }
     
     #back_btn{
@@ -186,6 +196,7 @@
         position: absolute;
         bottom:10px;
         left:20px;
+        border: none;
     }
     
     #img_bac{
@@ -245,6 +256,7 @@
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 45pt;
+        border: none;
     }
 
     #cont3{
@@ -259,6 +271,7 @@
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 45pt;
+        border: none;
     }
 
     #cont4{
@@ -273,6 +286,7 @@
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 45pt;
+        border: none;
     }
     
     #back_btn{
@@ -280,11 +294,36 @@
         position: absolute;
         bottom:40px;
         left:45px;
+        border: none;
     }
     
-    #img_bac{
+    #img_bac {
         height:100px;
         width:100px;
+    }
+    
+    #inpEat {
+    width: 80%;
+    background: #e0e0e0;
+    color: black;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    font-size: 26pt;
+    margin-top: 20px;
+}
+    #validateEat {
+        font-size: 24pt;
+        width: 20%;
+        height: 30%;
+    }
+    
+    .modal-content {
+        font-size: 34pt;
+    }
+    
+    .close {
+        font-size: 60px;
     }
 }
 
