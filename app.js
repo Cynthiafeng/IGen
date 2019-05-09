@@ -182,7 +182,7 @@ if (([pkg.company] == "Solo") && (window.innerWidth >= 414 && window.innerWidth 
     console.log("solo activated");
     document.querySelector("#char").style.width = "100%";
     document.querySelector("#char").style.height = "100%";
-    document.querySelector("#char").style.transform = "translate(-5%,11%)";
+    document.querySelector("#char").style.transform = "translate(-5%,0%)";
     document.querySelector("#bf").style.right = "0x";
     document.querySelector("#bf").style.marginTop = "0px";
     document.querySelector("#bf").style.marginRight = "-10px";
@@ -193,7 +193,7 @@ if (([pkg.company] == "Solo") && (window.innerWidth >= 414 && window.innerWidth 
     console.log("solo activated");
     document.querySelector("#char").style.width = "100%";
     document.querySelector("#char").style.height = "100%";
-    document.querySelector("#char").style.transform = "translate(-10%,11%)";
+    document.querySelector("#char").style.transform = "translate(-8%,0%)";
     document.querySelector("#bf").style.right = "0x";
     document.querySelector("#bf").style.marginTop = "50px";
     document.querySelector("#bf").style.transform = "translate(20%,-140%)";
