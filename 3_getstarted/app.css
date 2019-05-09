@@ -6,15 +6,6 @@ body{
         height:100vh;
         width:100vw;
     }
- 
-    #app{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        position: relative;
-        top:0px;
-    }
 
     h1{
       position: absolute;
@@ -26,7 +17,7 @@ body{
     }
 
     .button{
-        position: relative;
+      position: relative;
       top: 300px;
     }
     
@@ -38,8 +29,6 @@ body{
       border: none;
       font-size: 40pt;
       margin-left:125px;
-      margin-top: 0px;
-      margin-bottom: 80px;
       color: #018ABE;
       font-family: 'PT Sans Narrow', sans-serif;
       box-shadow: 0 6px #018ABE;
@@ -51,15 +40,14 @@ body{
     }
     
     #left {
-        transform: translateY(80%) translateX(-5%);
+        transform: translateY(100%) translateX(-5%);
     }
     
     #right {
-        transform: translateY(-20%) translateX(25%);
+        transform: translateY(-40%) translateX(25%);
     }
 
 #back_btn{
-        display:flex;
         position: absolute;
         bottom:10px;
         left:20px;

@@ -29,7 +29,7 @@ pancakes.addEventListener("click",function(){
     modal.style.display = "block";
     centerElement.style.display = "flex";
     labelText.innerText = "Good Job! You got the right one";
-    document.querySelector("#ques").innerHTML = "I'm happy and eating pancake <br/>alone for breakfast";
+    document.querySelector("#ques").innerHTML = "I'm happy and eating pancakes <br/>alone for breakfast";
     next.style.display = "block";
 })
 toast.addEventListener("click",function(){
