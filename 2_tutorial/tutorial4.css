@@ -55,34 +55,14 @@
 
     #pan{
         
-        width:200px;
-        height:200px;
+        width:45vw;
+        height:25vh;
     }
-    
-    /*#slideSource {
-        opacity: 0;
-        transition: opacity 1s; 
-    }
-
-    #slideSource.fade {
-        opacity: 1;
-    }*/
     
      #img_btn{
         align-items: center;
         text-align: center;
         top:130px;
-    }
-    
-    .game_btn{
-        width: 85px;
-        height: 40px;
-        background-color:#018ABE;
-        border: solid 2px #D6E8EE;
-        border-radius: 25px;
-        font-family: 'Quicksand', helvetica, sans-serif;
-        font-size: 16pt;
-        color: #D6E8EE;
     }
     
     #ques {
@@ -91,7 +71,7 @@
         color:#ffffff;
         top:180px;
         text-align:center;
-        width: 180%;
+        width: 90vw;
     }
     
     .btn_cont{
@@ -102,8 +82,8 @@
     }
     
     .btn_opts{
-        width: 130px;
-        height: 45px;
+        width: 30vw;
+        height: 6vh;
         background-color:#D6E8EE;
         border: solid 4px #018ABE;
         border-radius: 25px;
@@ -154,8 +134,8 @@
     }
     
     #img_bac{
-        height:50px;
-        width:50px;
+        height:5vh;
+        width:15vw;
     }
     
     #bac {
@@ -278,34 +258,14 @@
 
     #pan{
         
-        width:400px;
-        height:400px;
+        width:40vw;
+        height:30vh;
     }
-    
-    /*#slideSource {
-        opacity: 0;
-        transition: opacity 1s; 
-    }
-
-    #slideSource.fade {
-        opacity: 1;
-    }*/
     
      #img_btn{
         align-items: center;
         text-align: center;
         top:260px;
-    }
-    
-    .game_btn{
-        width: 160px;
-        height: 78px;
-        background-color:#018ABE;
-        border: solid 4px #D6E8EE;
-        border-radius: 45px;
-        font-family: 'Quicksand', helvetica, sans-serif;
-        font-size: 30pt;
-        color: #D6E8EE;
     }
     
     #ques {
@@ -314,7 +274,7 @@
         color:#ffffff;
         top:400px;
         text-align:center;
-        width: 180%;
+        width: 70vw;
     }
     
     .btn_cont{
@@ -325,8 +285,8 @@
     }
     
     .btn_opts{
-        width: 255px;
-        height: 85px;
+        width: 30vw;
+        height: 8vh;
         background-color:#D6E8EE;
         border: solid 8px #018ABE;
         border-radius: 45px;
@@ -357,7 +317,7 @@
 
      #next{
         height:6vh;
-        width:19vw;
+        width:20vw;
         background-color: #ffffff;
         border-radius: 35px;
         margin: 5px;
@@ -377,8 +337,8 @@
     }
     
     #img_bac{
-        height:100px;
-        width:100px;
+        height:8vw;
+        width:8vh;
     }
     
     #bac {
@@ -446,3 +406,4 @@
     .close {
         font-size: 50px;
     }
+}

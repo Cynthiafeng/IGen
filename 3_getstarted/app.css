@@ -15,17 +15,12 @@ body{
       color: white;
       font-size:35pt;
     }
-
-    .button{
-      position: relative;
-      top: 300px;
-    }
     
     .button1 {
       background-color: white;
       border-radius: 25px;
-      width: 150px;
-      height: 70px;
+      width: 50vw;
+      height: 50vh;
       border: none;
       font-size: 40pt;
       margin-left:125px;
@@ -35,7 +30,7 @@ body{
     }
     
     img {
-        width: 80%;
+        width: 40vw;
         top: 50%;
     }
     
@@ -56,8 +51,8 @@ body{
     }
     
 #img_bac{
-        height:50px;
-        width:50px;
+        height:10vw;
+        width:12vw;
     }
     
     #bac {
@@ -67,7 +62,7 @@ body{
    
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 415px) {
     
     body{
         background: #018ABE;
@@ -102,28 +97,28 @@ body{
     .button1 {
       background-color: white;
       border-radius: 25px;
-      width: 150px;
-      height: 70px;
+      width: 40vw;
+      height: 10vh;
       border: none;
       font-size: 40pt;
       margin-left:125px;
       margin-top: 0px;
-      margin-bottom: 80px;
       color: #018ABE;
       font-family: 'PT Sans Narrow', sans-serif;
       box-shadow: 0 6px #018ABE;
     }
     
     img {
-        width: 80%;
+        width: 80vw;
+        height: 45vh;
     }
     
     #left {
-        transform: translateY(80%) translateX(-5%);
+        transform: translateY(70%) translateX(-5%);
     }
     
     #right {
-        transform: translateY(-20%) translateX(25%);
+        transform: translateY(-30%) translateX(25%);
     }
    
 }
@@ -166,13 +161,12 @@ body{
     .button1 {
       background-color: white;
       border-radius: 45px;
-      width: 280px;
-      height: 130px;
+      width: 30vw;
+      height: 10vh;
       border: none;
       font-size: 70pt;
       margin-left:350px;
       margin-top: 0px;
-      margin-bottom: 80px;
       color: #018ABE;
       font-family: 'PT Sans Narrow', sans-serif;
       box-shadow: 0 12px #018ABE;
@@ -180,7 +174,8 @@ body{
     }
     
     img {
-        width: 80%;
+        width: 80vw;
+        height: 60vh;
     }
    
     #left {
@@ -194,15 +189,15 @@ body{
     #back_btn{
         display:flex;
         position: absolute;
-        bottom:40px;
+        bottom:0px;
         left:45px;
         border: none;
         background: none;
     }
     
     #img_bac{
-        height:100px;
-        width:100px;
+        height:10vh;
+        width:10vw;
     }
     
     #bac {
