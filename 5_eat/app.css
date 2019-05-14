@@ -110,6 +110,7 @@
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
+        overflow: hidden;
     }
 
     #main_cont{
@@ -143,8 +144,8 @@
     }
 
     #bfast{
-        width: 300px;
-        height: 60px;
+        width: 75vw;
+        height: 8vh;
         background-color: #ffffff;
         border-radius: 25px;
     }
@@ -161,8 +162,8 @@
     }
 
     #lunch{
-        width: 300px;
-        height: 60px;
+        width: 75vw;
+        height: 8vh;
         background-color: #ffffff;
         border-radius: 25px;
     }
@@ -179,8 +180,8 @@
     }
 
     #din{
-        width: 300px;
-        height: 60px;
+        width: 75vw;
+        height: 8vh;
         background-color: #ffffff;
         border-radius: 25px;
     }
@@ -201,8 +202,8 @@
     }
     
     #img_bac{
-        height:50px;
-        width:50px;
+        height:12vh;
+        width:12vw;
     }
     
     #bac {
@@ -222,6 +223,7 @@
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
+        overflow: hidden;
     }
 
     #main_cont{
@@ -240,14 +242,13 @@
 
     #cont1{
         font-family: 'Quicksand', helvetica, sans-serif;
-        font-size: 30pt;
+        font-size: 35pt;
         color:#ffffff;
         top: 0px;
     }
 
     #head_q{
         text-align: center;
-
     }
 
     #cont2{
@@ -255,10 +256,10 @@
     }
 
     #bfast{
-        width: 600px;
-        height: 120px;
+        width: 70vw;
+        height: 9vh;
+        border-radius: 50px;
         background-color: #ffffff;
-        border-radius: 45px;
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 45pt;
@@ -270,10 +271,10 @@
     }
 
     #lunch{
-        width: 600px;
-        height: 120px;
+        width: 70vw;
+        height: 9vh;
+        border-radius: 50px;
         background-color: #ffffff;
-        border-radius: 45px;
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 45pt;
@@ -285,10 +286,10 @@
     }
 
     #din{
-        width: 600px;
-        height: 120px;
+        width: 70vw;
+        height: 9vh;
+        border-radius: 50px;
         background-color: #ffffff;
-        border-radius: 45px;
         font-family: 'Quicksand', helvetica, sans-serif;
         color: #018ABE;
         font-size: 45pt;
@@ -304,8 +305,8 @@
     }
     
     #img_bac {
-        height:100px;
-        width:100px;
+        height:12vh;
+        width:12vw;
     }
     
     #bac {

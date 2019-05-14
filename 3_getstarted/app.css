@@ -5,6 +5,7 @@ body{
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
+        overflow: hidden;
     }
 
     h1{
@@ -51,7 +52,7 @@ body{
     }
     
 #img_bac{
-        height:10vw;
+        height:10vh;
         width:12vw;
     }
     
@@ -71,15 +72,6 @@ body{
         width:100vw;
     }
   
-    #app{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        position: relative;
-        top:0px;
-    }
-
     h1{
       position: absolute;
       top:150px;
@@ -132,15 +124,7 @@ body{
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
-    }
-    
-    #app{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        position: relative;
-        top:0px;
+        overflow: hidden;
     }
 
     h1{
@@ -166,7 +150,6 @@ body{
       border: none;
       font-size: 70pt;
       margin-left:350px;
-      margin-top: 0px;
       color: #018ABE;
       font-family: 'PT Sans Narrow', sans-serif;
       box-shadow: 0 12px #018ABE;
