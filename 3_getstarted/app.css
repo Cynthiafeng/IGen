@@ -1,13 +1,13 @@
 /*=========IPHONE 6s PLUS MEDIA SCREEN============*/
-@media only screen and (max-width: 414px) { 
-body{
+@media only screen and (max-width: 414px) {
+    
+    body{
         background: #018ABE;
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
-        overflow: hidden;
     }
-
+  
     h1{
       position: absolute;
       top:150px;
@@ -16,31 +16,39 @@ body{
       color: white;
       font-size:35pt;
     }
+
+    .button{
+      top: 300px;
+      position: relative;
+        z-index: 99;
+    }
     
     .button1 {
       background-color: white;
       border-radius: 25px;
-      width: 50vw;
-      height: 50vh;
+      width: 40vw;
+      height: 10vh;
       border: none;
       font-size: 40pt;
       margin-left:125px;
+      margin-top: 0px;
       color: #018ABE;
       font-family: 'PT Sans Narrow', sans-serif;
       box-shadow: 0 6px #018ABE;
+        
     }
     
     img {
-        width: 40vw;
-        top: 50%;
+        width: 80vw;
+        height: 45vh;
     }
     
     #left {
-        transform: translateY(100%) translateX(-5%);
+        transform: translateY(70%) translateX(-5%);
     }
     
     #right {
-        transform: translateY(-40%) translateX(25%);
+        transform: translateY(-30%) translateX(25%);
     }
 
 #back_btn{
@@ -62,59 +70,6 @@ body{
     }
    
 }
-
-@media only screen and (max-width: 415px) {
-    
-    body{
-        background: #018ABE;
-        background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
-        height:100vh;
-        width:100vw;
-    }
-  
-    h1{
-      position: absolute;
-      top:150px;
-      margin-left:75px;
-      font-family: 'Quicksand', sans-serif;
-      color: white;
-      font-size:35pt;
-    }
-
-    .button{
-      top: 300px;
-      position: relative;
-    }
-    
-    .button1 {
-      background-color: white;
-      border-radius: 25px;
-      width: 40vw;
-      height: 10vh;
-      border: none;
-      font-size: 40pt;
-      margin-left:125px;
-      margin-top: 0px;
-      color: #018ABE;
-      font-family: 'PT Sans Narrow', sans-serif;
-      box-shadow: 0 6px #018ABE;
-    }
-    
-    img {
-        width: 80vw;
-        height: 45vh;
-    }
-    
-    #left {
-        transform: translateY(70%) translateX(-5%);
-    }
-    
-    #right {
-        transform: translateY(-30%) translateX(25%);
-    }
-   
-}
-
 
 /*=========IPAD PRO MEDIA SCREEN============*/
 @media only screen and (min-width:415px) {
