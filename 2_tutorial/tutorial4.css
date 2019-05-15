@@ -6,6 +6,7 @@
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
+        overflow: hidden;
     }
 
     #main_cont{
@@ -20,6 +21,8 @@
     .sml_conts{
         display: flex;
         position: absolute;
+        align-items: center;
+        justify-content: center;
     }
 
     #cont0{
@@ -209,6 +212,7 @@
         background: linear-gradient(to bottom, #018ABE, #97CADB, #D6E8EE);
         height:100vh;
         width:100vw;
+        overflow: hidden;
     }
 
     #main_cont{
